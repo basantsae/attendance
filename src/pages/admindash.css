@@ -1,0 +1,175 @@
+.content-header {
+  font-size: 1.8rem;
+}
+
+.content-welcome {
+  background-color: #fff;
+  box-shadow: #fff;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-welcome span {
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  width: 270px;
+  /* height: 150px; */
+  border-radius: 0.25rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.card .inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.inner h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.more-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  gap: 10px;
+  /* gap: 15px;
+  width: 273px;
+  height: 40px; */
+}
+/* 
+.link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} */
+
+.events {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+  /* display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0; */
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-top: 20px;
+}
+
+.event-title {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.75rem 1.25rem;
+  position: relative;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.event-table {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+/* style of attendance page */
+.attendance-content {
+  padding: 1rem;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.attendance-title h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* src/DateRangePicker.css */
+.date-range-picker {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.date-range-picker form{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.date-range-picker div {
+  margin: 10px 0;
+}
+
+.date-range-picker label {
+  margin-right: 10px;
+}
+
+.date-range-picker input {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.attendance-file{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+/* src/DownloadButtons.css */
+#download-section {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+  }
+  
+  #download-section button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #5294e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #download-section button:hover {
+    background-color: #5294e2;
+  }
+  
+
+
+
+  
